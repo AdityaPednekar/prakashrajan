@@ -1,0 +1,102 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.search{
+    border: 1px solid gray;
+    float: left;
+    margin: 0;
+    padding: 0;
+    border-top: 0px;
+    text-align: center;
+    border-left: 0px;
+    border-right: 0px;
+    margin-top: 10px;
+    background: transparent url(https://img.icons8.com/ios/30/000000/search--v1.png) left no-repeat;
+    background-size: 20px 20px;
+    width: 250px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+.search:focus {
+    outline: none;
+    width: 450px;
+  }
+
+.hero-image {
+  top: 300px;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.2) 80%,rgba(246, 97, 97, 0.888) 100%, rgb(251, 38, 38) 100%),url(asset/back.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 1000px;
+}
+
+
+
+.hero-text {
+  text-align:center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-120%, -50%);
+  color: black;
+}
+
+.button {
+    width: 140px;
+    height: 45px;
+    text-transform: uppercase;
+    font-size: 16pt;
+    letter-spacing: 2.5px;
+    font-weight: 300;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+  
+.button:hover {
+    background-color:rgb(8, 226, 128);
+    box-shadow: 0px 5px 10px rgb(175, 241, 211);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+
+.nav{
+  padding: 20px;
+}
+
+a{
+text-decoration: none !important;
+}
+
+#itwo{
+  border-radius: 40px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+  margin-top: 50%;
+  margin-left: 50%;
+}
+
+#two{
+  padding: 100px;
+  background-image: linear-gradient( rgba(246, 97, 97, 0.888) 0.1%, rgb(246, 9, 9) 20%,red 10%),url(asset/back.jpg);
+  height: 100%;
+}
+
+.textin{
+  margin-top: 40%;
+  margin-left: 20%;
+  color: #fff;
+}
+
+#pgnate{
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 30pt;
+}
