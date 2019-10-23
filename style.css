@@ -1,6 +1,21 @@
 body{
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.pos-f-t{
+    display: none;
+}
+
+.collapsible{
+    display: none;
+}
+
+.collapse navbar-collapse{
+    display:none;
+}
+.navbar-toggler first-button{
+    display: none;
+}
 .search{
     border: 1px solid gray;
     float: left;
@@ -27,7 +42,7 @@ body{
   top: 300px;
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.2) 80%,rgba(246, 97, 97, 0.888) 100%, rgb(251, 38, 38) 100%),url(asset/back.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   width: 100%;
   height: 1000px;
 }
@@ -39,17 +54,17 @@ body{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-120%, -50%);
-  color: black;
+  transform: translate(-50%, -50%);
+  color: #000;
 }
 
 .button {
     width: 140px;
     height: 45px;
     text-transform: uppercase;
-    font-size: 16pt;
+    font-size: 12pt;
     letter-spacing: 2.5px;
-    font-weight: 300;
+    font-weight: 500;
     color: #000;
     background-color: #fff;
     border: none;
@@ -69,6 +84,8 @@ body{
 
 .nav{
   padding: 20px;
+  
+    
 }
 
 a{
@@ -80,11 +97,15 @@ text-decoration: none !important;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
   margin-top: 50%;
   margin-left: 50%;
+height: 400px;
+    width: 300px;
+    
 }
 
 #two{
   padding: 100px;
   background-image: linear-gradient( rgba(246, 97, 97, 0.888) 0.1%, rgb(246, 9, 9) 20%,red 10%),url(asset/back.jpg);
+    
   height: 100%;
 }
 
@@ -95,8 +116,95 @@ text-decoration: none !important;
 }
 
 #pgnate{
+    
   background-color: transparent;
   border: none;
   color: white;
   font-size: 30pt;
+
 }
+#pgnate-m{
+  display: none;
+}
+
+/**** Mobile layout ****/
+@media (max-width: 900px){
+    .hero-image{
+        background-image: url(asset/back-m.png)
+    }
+}
+
+
+
+@media (max-width: 900px){
+    .hero-text{
+  top: 60%;
+ 
+}
+
+@media (max-width: 900px){
+    #nav
+
+.nav-item-icon{
+    display: flex;
+}
+
+.nav-item{
+    display: none;
+}
+
+.nav justify-content-center{
+    align-content: center;
+}
+
+@media (max-width: 900px){
+    .col-4{
+        display: none;
+    }
+   
+    @media (max-width: 900px){
+        .col-6{
+            text-align: justify;
+            align-content: flex-start;
+            
+        }
+        
+        @media (max-width: 900px){
+        .collapsible{
+    display: contents;
+           
+            }
+             @media (max-width: 900px){
+        .open{
+    display: contents;
+           
+            }
+                 
+                 
+                  @media (max-width: 900px){
+        .navbarSupportedContent20{
+    display: contents;
+            padding: 35px;
+           
+            }
+                       @media (max-width: 900px){
+                           .navbar-toggler first-button{
+    display: contents;
+}
+                            @media (max-width: 900px){
+                                .pos-f-t{
+    display: contents;
+}
+        @media (max-width: 900px){
+            #pgnate-m{
+                display: contents;
+                font-size: 18pt;
+                color: #fff;
+                letter-spacing: 18px;
+              
+            }
+            @media (max-width: 900px){
+            #pgnate{
+                display:none;
+              
+            }
